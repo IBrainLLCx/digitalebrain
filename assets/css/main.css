@@ -189,6 +189,8 @@
 
 	}
 
+
+
 /* Grid */
 
 	.row {
@@ -1925,6 +1927,28 @@
 			margin-top: 0;
 		}
 
+	header.major1 {
+		text-align: center;
+	}
+
+		header.major1 h1, header.major1 h2, header.major1 h3, header.major1 h4, header.major1 h5, header.major1 h6 {
+			position: relative;
+		}
+
+			header.major1 h1:after, header.major1 h2:after, header.major1 h3:after, header.major1 h4:after, header.major1 h5:after, header.major1 h6:after {
+				background: #dddddd;
+				content: '';
+				display: block;
+				height: 2px;
+				margin: 0.75em auto 0 auto;
+				position: relative;
+				width: 4em;
+			}
+
+		header.major1 p {
+			margin-top: 0;
+		}
+
 /* Form */
 
 	form {
@@ -2693,7 +2717,7 @@
 		#header header {
 			color: rgba(255, 255, 255, 0.5);
 			display: inline-block;
-			padding-bottom: 8em;
+			padding-bottom: 34em;
 			vertical-align: middle;
 		}
 
@@ -2837,7 +2861,7 @@
 		/* Header */
 
 			#header header {
-				padding-bottom: 9em;
+				padding-bottom: 34em;
 				width: 80%;
 			}
 
