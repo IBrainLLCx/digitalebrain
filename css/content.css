@@ -28,11 +28,12 @@ ul {
 
 ul.icons {
     cursor: default;
+    padding-left: 0px;
     list-style: none;
-    padding-left: 0;
 }
 ul.icons li {
     display: inline-block;
+    padding-right: 5px;
     padding: 0 1.5em 0 0;
 }
 
