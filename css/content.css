@@ -48,10 +48,10 @@
     background-position: 50% -63px;
   }
 }
-@media (min-width: 770px) {
+@media (max-width: 815px) {
   .bg-mobile {
 
-    background-image:url('../images/bg_1.jpg') !important;
+    background-image:url('../images/bg_1_.jpg') !important;
     background-position: 50% -63px;
   }
 }
